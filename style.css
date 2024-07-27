@@ -1,0 +1,515 @@
+
+*{
+margin: 0;
+padding: 0;
+
+}
+body{
+    background-color: black;
+    height:100% ;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+.header-container{
+height:12vh;
+width: 100%;
+background-color: rgb(0, 0, 0);
+position:fixed;
+overflow: hidden;
+z-index: 100;
+}
+
+.navbar-container{
+    display:flex;  
+    z-index: 100;
+}
+
+
+.navbar-container img{
+    margin:  20px;
+    width: 160px;
+    padding-bottom: 15px;
+}
+
+.opt{
+    list-style: none;
+    display: inline-block; 
+}
+
+.nav-items-container ul li{
+    display: inline-block;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 14px;
+    padding: 30px 5px 40px 15px ;
+}
+.nav-items-container{
+    display:flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+nav li:hover{
+    border-style:inherit;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+    background-color: rgb(68, 66, 66);
+}
+
+.bgimg1{
+    background-image: url(images/grey-dodge.jpeg.jpg);
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    padding-left: 30px;
+    padding-top: 200px;
+}
+
+.homebox{
+    font-size: small;
+    color: white;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    height: 300px;
+    width: 700px;
+    background-color: rgba(0, 0, 0, 0.531);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.bgimg2{
+    background-color: black;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    height: 550px;
+}
+
+.heading{
+    padding: 25px 0 25px 0;
+    text-align: center;
+    color: white;
+}
+
+.heading2{
+    padding: 30px 0 25px 0;
+    text-align: center;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img1,.img2,.img3,.img4{
+    height: 175px;
+    width: 300px;padding: 50px 15px 0px 15px;
+}
+
+
+.car1,.car2,.car3,.car4{
+    text-align: center;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.car{
+    text-decoration: none;
+    
+    display: flex;
+}
+
+.bgvideo{
+    
+    height: 50vh;
+    width: 100vw;
+    object-fit: cover;
+    
+}
+
+.bgvid{
+   
+    position: relative;
+}
+
+.homebox2{
+    
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 300px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.597);
+    top: 0;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 8px;
+    left: 50px;
+    
+}
+
+
+.box1{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 600px;
+    width: 100vw;
+    position: relative;
+}
+
+.bgimg3{
+    background-image:url(images/sportscharger.avif);
+    height: 500px;
+    width: 100vw;
+    background-size: cover;
+}
+
+.homebox3{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.587);
+    height: 400px;
+    width: 410px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 100px;
+    left: 65%;
+    font-size:medium;
+
+}
+
+.box2{
+    background-color: black;
+    height: 700px;
+    width: 100vw;
+}
+
+
+.bgimg4{
+    background-image:url(images/dodge-tshirt.png);
+    height: 450px;
+    width: 100vw;
+    background-size: cover;
+    
+}
+
+.hellyeah{
+    color: white;
+}
+
+button {
+    color: white;
+    background-color: rgb(213, 5, 5);
+    height: 40px;
+    width: 150px;
+    border: 0ch;
+    font-weight:bold;
+}
+
+
+
+.buttonbig{
+    color: white;
+    background-color: rgb(213, 5, 5);
+    height: 40px;
+    width: 230px;
+    border: 0ch;
+    font-weight:bold;
+}
+button:hover,.buttonbig:hover{
+    background-color: rgb(130, 4, 4);
+    transition-duration: 0.3s;
+}
+
+.amazon{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 15px;
+}
+
+.hellyeah{
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hellyeahexp{
+    color: rgb(186, 186, 186);
+    font-weight: 100;
+    padding-top: 10px;
+
+}
+
+.box3{
+    background-color: black;
+    height: 770px;
+    width: 100vw;
+    position: relative;
+}
+
+.bgimg5{
+    background-image:url(images/racecar.avif);
+    height: 73vh;
+    width: 100%;
+    background-size:cover;
+}
+
+.homebox4{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.587);
+    height: 400px;
+    width: 430px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 30px;
+    left: 63%;
+    font-size:14px;
+
+}
+
+.eshop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0 0 0;
+}
+
+.bringit{
+    padding-left: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bringitexp{
+    color: white;
+    font-weight: 100;
+    padding-top: 10px;
+}
+
+
+.icon-container{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+.icon-box img{
+    height: 150px;
+    width: 300px;
+    
+    
+}
+
+.step{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.icon-box{
+    padding:0 10px 0 20px;
+}
+
+.box4{
+    position: relative;
+}
+
+
+.bgimg6{
+    background-image: url(images/white-dodge.avif);
+    height:75vh ;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.homebox5{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.587);
+    height: 310px;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    font-size:14px;
+
+}
+
+
+.box5{
+    background-color: black;
+    height:360px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.bgimg7{
+    background-image: url(images/dodge-all.avif);
+    width: 100vw;
+    height:290px;
+}
+
+.homebox6{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.587);
+    height: 240px;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    font-size:14px;
+
+}
+.search{
+    background-color: rgb(30, 30, 30);
+    height: 130px;
+    width: 100vw;
+
+   
+}
+
+
+.footer-list1{
+    color: white;
+    font-size: 17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+.search ul li{
+    padding: 37px 28px 0 25px;
+}
+
+
+.stellantis{
+    height: 30px;
+    width: 90px;
+    padding-top: 10px;
+    
+}
+
+input{
+    height: 37px;
+    width: 200px;
+}
+
+
+.ending{
+    background-color: black;
+    height: 600px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: start;
+    list-style: none;
+}
+
+
+
+.ftvehicles,.ftdodge,.ftsupport,.ftcost,
+.ftservice,.ftcost,.ftfollow,.ftpower,.ftowners,
+.ftresearch,.ftaccount,.ftlocate,.ftprivacy,.ftlegal{
+    color :white;
+    padding: 10px 15px 25px 80px;
+    font-size:15px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    
+}
+.ftsupport{
+    padding-left: 200px;
+}
+.ftfollow{
+    padding-left: 150px;
+}
+
+
+.ft1,.ft2,.ft3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 10px;
+}
+.footer-list2{
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    padding: 0px 20px;
+}
+.ftimg{
+    height: 25px;
+    width: 67px;
+}
+
+
+.ftnav li{
+    padding: 0px 20px;
+
+}
+.ftnav{list-style: none;
+    padding: 0px  0 0 550px;
+    font-size: 10px;
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    color: white;
+}
+
+hr{
+    width: 100vw;
+    height: 1px;
+    padding:0px 200px 0px 200px;
+    
+    border-color: black;
+    
+}
+
+.ftexp{
+    color: white;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px 20px 40px 20px;
+}
